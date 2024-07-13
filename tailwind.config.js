@@ -30,10 +30,21 @@ module.exports = {
         explosion: 'url("/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        site: 'url("/site-bg.svg")'
       },
+
+      /* ----------------------------------------------------------
+      TODO: Original values in tailwindcss.animation module:
+
+        animation: {
+          'spin-slow': 'spin 6s linear infinite',
+        },
+
+      FIXME: Modified the spin speed -> 'spin 10s linear infinite'
+      -------------------------------------------------------------*/
+
       animation: {
-        'spin-slow': 'spin 6s linear infinite',
+        'spin-slow': 'spin 10s linear infinite',
       },
       fontFamily: {
         poppins: [`var(--font-poppins)`, 'sans-serif'],
